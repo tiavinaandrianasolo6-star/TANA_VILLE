@@ -232,6 +232,129 @@ function Home() {
 
         </section>
 
+                  {/* ================= LOISIRS & HOTELS ================= */}
+          <section
+            id="loisirs"
+            className="leisure-section"
+          >
+
+            <div className="section-heading">
+
+              <span>
+                SORTIR & SÉJOURNER À TANA
+              </span>
+
+              <h2>
+                Des endroits pour profiter de la capitale
+              </h2>
+
+            </div>
+
+            <p className="leisure-intro">
+              Découvrez prochainement une sélection d'espaces de loisirs,
+              restaurants, hôtels et lieux où passer un agréable moment
+              à Antananarivo.
+            </p>
+
+
+            <div className="leisure-grid">
+
+              {/* ================= LOISIR ================= */}
+              <article className="leisure-card">
+
+                <div className="leisure-image leisure-loisir">
+
+                  <span className="leisure-tag">
+                    LOISIRS
+                  </span>
+
+                </div>
+
+                <div className="leisure-content">
+
+                  <h3>
+                    Espaces de loisirs
+                  </h3>
+
+                  <p>
+                    Découvrez des lieux pour vous détendre, vous divertir
+                    et passer du temps en famille ou entre amis.
+                  </p>
+
+                  <button>
+                    Découvrir →
+                  </button>
+
+                </div>
+
+              </article>
+
+
+              {/* ================= HOTEL ================= */}
+              <article className="leisure-card">
+
+                <div className="leisure-image leisure-hotel">
+
+                  <span className="leisure-tag">
+                    HÔTELS
+                  </span>
+
+                </div>
+
+                <div className="leisure-content">
+
+                  <h3>
+                    Hôtels à Antananarivo
+                  </h3>
+
+                  <p>
+                    Retrouvez des hôtels et hébergements à découvrir
+                    lors de votre séjour dans la capitale.
+                  </p>
+
+                  <button>
+                    Voir les hôtels →
+                  </button>
+
+                </div>
+
+              </article>
+
+
+              {/* ================= RESTAURANTS ================= */}
+              <article className="leisure-card">
+
+                <div className="leisure-image leisure-restaurant">
+
+                  <span className="leisure-tag">
+                    RESTAURATION
+                  </span>
+
+                </div>
+
+                <div className="leisure-content">
+
+                  <h3>
+                    Restaurants & sorties
+                  </h3>
+
+                  <p>
+                    Découvrez les restaurants, cafés et autres endroits
+                    où profiter de la vie quotidienne à Tana.
+                  </p>
+
+                  <button>
+                    Explorer →
+                  </button>
+
+                </div>
+
+              </article>
+
+            </div>
+
+          </section>
+
 
         {/* ================= ACTUALITES ================= */}
         <section
